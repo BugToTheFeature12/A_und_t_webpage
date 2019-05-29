@@ -1,11 +1,9 @@
 import React, { Component } from "react";
 import "./counter.css";
 
-class Counter extends Component {
+class navbar extends Component {
   render() {
-    return (
-    
-    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top" >
+    return <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="img/logo.jpg"/></a>
       <button
@@ -39,8 +37,8 @@ class Counter extends Component {
         </ul>
       </div>
     </div>
-    </nav>);
+  </nav>;
   }
 }
 
-export default Counter;
+export default navbar;

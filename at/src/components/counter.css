@@ -1,0 +1,17 @@
+nav{
+    height: 74px;
+    background-color: rgb(3, 104, 8);
+    
+};
+
+.nav-item{
+   color: rgb(3, 104, 8);
+}
+
+.navbar {
+    padding: .8rem;
+}
+
+.navbar-nav li {
+    padding-right: 5px;
+}
